@@ -1,0 +1,19 @@
+.contenedor{
+    width: 100%;
+}
+.contenedor-centrado{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-mediano{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+.titulo{
+    text-align: center;
+}
+
+.centrar-texto{
+    text-align: center;
+}
