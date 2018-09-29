@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    background-image: url(../img/Blue-Widescreen-Background-1920x1200.jpg);
+}
+
+.container{
+    width: 100%;
+    padding-top: 6%;
+}
+
+.container-profile {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 2%;
+    opacity: 0.8;
+    background-color: black;
+}
+
+div.text-profile{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+p{
+    line-height: 200%;
+}
+div.img-profile{
+    background-image: url(../img/27066813_191126191634145_7981243732897300291_n.jpg);
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size:100% auto;
+    display: block;
+    margin: auto;
+}
+
