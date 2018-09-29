@@ -1,0 +1,29 @@
+.container-center{
+    width: 70%;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+.encabezado{
+    width: 90%;
+}
+.img-left{
+    float: left;
+}
+
+.img-right{
+    float: right;
+}
+
+.space{
+    width: 48%;
+}
+
+.border-color {
+    border-right: solid #BFC9CA;
+    width: 400px;
+}
+
+.img-lateral{
+    width: 50%;
+    padding-top: 3%;
+}
