@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formular JavaScript</title>
+    <link rel="stylesheet" href="../../2018-IPDW/css/styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="form-signin">
+            <h3>Registro</h3>
+            <form action="">
+                <input type="text" class="input input-login" name="name" id="name" placeholder="Nombre" title="Nombre" required>
+                <input type="text" class="input input-login" name="lastname" id="lastname" placeholder="apellido" title="apellido"
+                    required>
+                <input type="tel" class="input input-login" name="cellphone" id="cellphone" placeholder="89123412" title="Telefono"
+                    required>
+                <input type="text" class="input input-login" name="username" id="username" placeholder="Usuario" title="Usuario"
+                    required>
+                <input type="password" class="input input-login" name="password" id="password" placeholder="Contraseña" title="Contraseña"
+                    required>
+                <input type="password" class="input input-login" name="rePassword" id="rePassword" placeholder="Repetir Contraseña" title="Repetir Contraseña"
+                    required>
+                <input type="button" value="Registrarme" class="btn" onclick="signinUser()">
+                <div class="result"></div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/application.js"></script>
+</body>
+
+</html>
