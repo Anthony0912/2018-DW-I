@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <a class="btn btn-primary" href="./curso.html" role="button">Ir a cursos</a>
+        <form id="form">
+            <div class="form-group">
+                <label for="code">Codigo de Carrera</label>
+                <input type="text" class="form-control" id="code" placeholder="Codigo de carrera">
+            </div>
+            <div class="form-group">
+                <label for="carrer">Nombre de la carrera</label>
+                <input type="text" class="form-control" id="carrer" placeholder="Nombre de la carrera">
+            </div>
+            <button type="button" id="btn_crear_carrera" class="btn btn-success">Añadir</button>
+        </form>
+        <table class="table" id="carrera_table">
+            <thead>
+                <tr>
+                    <th scope="col">Codigo de carrera</th>
+                    <th scope="col">Nombre de la carrera</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="form">
+                            <div class="form-group">
+                                <label for="code">Codigo de Carrera</label>
+                                <input type="text" class="form-control" id="codigoEdit" placeholder="Codigo de carrera" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="carrer">Nombre de la carrera</label>
+                                <input type="text" class="form-control" id="carreraEdit" placeholder="Nombre de la carrera">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" id="btn_editar_carrera" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="./js/localstorage.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
